@@ -30,32 +30,32 @@ var switcherHTML = '<div id="switcher">';
 		switcherHTML +=        		'</li>';
 		switcherHTML +=    		'</ul>';
 		switcherHTML +=    '</div>';
-		switcherHTML +=    '<div id="switcher_layout">';
-		switcherHTML +=    		'<p>Layout style:</p>';
-		switcherHTML +=    		'<div class="checkbox checkbox-slider--b-flat">';
-		switcherHTML +=    		    '<label>';
-		switcherHTML +=    		        '<input type="checkbox" id="layout"> <span>Boxed</span>';
-		switcherHTML +=    		    '</label>';
-		switcherHTML +=    		'</div>';
+		// switcherHTML +=    '<div id="switcher_layout">';
+		// switcherHTML +=    		'<p>Layout style:</p>';
+		// switcherHTML +=    		'<div class="checkbox checkbox-slider--b-flat">';
+		// switcherHTML +=    		    '<label>';
+		// switcherHTML +=    		        '<input type="checkbox" id="layout"> <span>Boxed</span>';
+		// switcherHTML +=    		    '</label>';
+		// switcherHTML +=    		'</div>';
 		// switcherHTML +=    		'<div class="checkbox checkbox-slider--b-flat">';
 		// switcherHTML +=    		    '<label id="boxed_margin" class="hidden">';
 		// switcherHTML +=    		        '<input type="checkbox"> <span>Vertical Margins</span>';
 		// switcherHTML +=    		    '</label>';		
 		// switcherHTML +=    		'</div>';
-		switcherHTML +=		'</div>';
-		switcherHTML +=    '<div id="switcher_patterns">';
-		switcherHTML +=    		'<p class="for-toggle hidden">Boxed Patterns</p>';
-		switcherHTML +=    		'<ul id="switcher-patterns" class="list-inline for-toggle hidden">';
+		// switcherHTML +=		'</div>';
+		//switcherHTML +=    '<div id="switcher_patterns">';
+		//switcherHTML +=    		'<p class="for-toggle hidden">Boxed Patterns</p>';
+		//switcherHTML +=    		'<ul id="switcher-patterns" class="list-inline for-toggle hidden">';
 
-		for (var i = 0; i < 12; i++) {
-			switcherHTML +=    		    '<li>';
-			switcherHTML +=    		        '<a href="#" class="pattern' + i + '" data-pattern="pattern' + i + '">';
-			switcherHTML +=    		            '<img src="img/pattern' + i + '.png" alt="" width="40" height="40" title="pattern' + i + '">';
-			switcherHTML +=    		        '</a>';
-			switcherHTML +=    		    '</li>';
+		//for (var i = 0; i < 12; i++) {
+		//	switcherHTML +=    		    '<li>';
+		//	switcherHTML +=    		        '<a href="#" class="pattern' + i + '" data-pattern="pattern' + i + '">';
+		//	switcherHTML +=    		            '<img src="img/pattern' + i + '.png" alt="" width="40" height="40" title="pattern' + i + '">';
+		//	switcherHTML +=    		        '</a>';
+		//	switcherHTML +=    		    '</li>';
         	//available patterns
-        	window.patternClasses.push('pattern' + i);
-		};
+        //	window.patternClasses.push('pattern' + i);
+		//};
 
 		switcherHTML +=    		'</ul>';
 		switcherHTML +=    '</div>';
